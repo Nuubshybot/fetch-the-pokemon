@@ -77,10 +77,10 @@ To run the project using Docker, follow these steps:
 ## Screenshots
 
 ### Area Selection
-![Area Selection](images/area)
+![Area Selection](images/area.jpg)
 
 ### Pokémon Battle
-![Battle](images/battle)
+![Battle](images/battle.jpg)
 
 ----------
 
