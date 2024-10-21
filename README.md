@@ -25,6 +25,20 @@ This project was developed by a team of three developers. It is a fully interact
 
 ---
 
+## Technologies
+
+### Environment:
+- [![nodejs][node.js]][node-url]
+- [![npm][npm]][npm-url]
+
+### Frontend:
+- [![React-Vite][React-Vite]][Vite-URL]
+- [![Css][Css3]][Css-url]
+
+### Containerization:
+- [![docker][docker]][docker-url]
+
+
 ## Features
 
 - **Area and Location Selection**: Users can choose from different areas in the Pokémon universe and navigate through various locations.
@@ -55,15 +69,6 @@ The website will be available at `http://localhost:3000`.
 
 ----------
 
-## Usage
-
-1.  **Select an Area**: After loading the website, you can choose from different areas of the Pokémon world.
-2.  **Choose a Location**: Once the area is selected, explore various locations within that area.
-3.  **Battle Setup**: Select your Pokémon and the enemy Pokémon. The battle will simulate using stats retrieved from the API.
-4.  **Engage in Battle**: Use turn-based actions to defeat the enemy Pokémon, with real-time stats being displayed for each action.
-
-----------
-
 ## Docker Setup
 
 To run the project using Docker, follow these steps:
@@ -80,6 +85,14 @@ To run the project using Docker, follow these steps:
     ```
 3.  Once the containers are up, access the website at `http://localhost:3000`.
     
+----------
+
+## Usage
+
+1.  **Select an Area**: After loading the website, you can choose from different areas of the Pokémon world.
+2.  **Choose a Location**: Once the area is selected, explore various locations within that area.
+3.  **Battle Setup**: Select your Pokémon and the enemy Pokémon. The battle will simulate using stats retrieved from the API.
+4.  **Engage in Battle**: Use turn-based actions to defeat the enemy Pokémon, with real-time stats being displayed for each action.
 
 ----------
 
@@ -101,9 +114,24 @@ This project uses the [PokéAPI](https://pokeapi.co/) to retrieve Pokémon data.
 
 ## Contributors
 
--   **Zoli** - [@NuubShybot](https://github.com/Nuubshybot)
--   **Samu** - [@nionys](https://github.com/nionys)
--   **Attila** - [@Attila112](https://github.com/Attila112)
+-   **Zoltán Varga** - [@NuubShybot](https://github.com/Nuubshybot)
+-   **Samu Pecsenye** - [@nionys](https://github.com/nionys)
+-   **Attila Gonda** - [@Attila112](https://github.com/Attila112)
 
 ## License
 This project is licensed under the MIT License.
+
+[React-Vite]: https://img.shields.io/badge/-Vite-D3D3D3?logo=Vite&logoColor=646CFF
+[Vite-URL]: https://vitejs.dev/guide/
+
+[Css3]: https://img.shields.io/badge/Css-4361ee?style=for-the-badge&logo=css&logoColor=61DAFB
+[Css-url]: https://en.wikipedia.org/wiki/CSS
+
+[docker]: https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white
+[docker-url]: https://docs.docker.com/engine/install/
+
+[node.js]: https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white
+[node-url]: https://nodejs.org/en
+
+[npm]: https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white
+[npm-url]: https://www.npmjs.com/
